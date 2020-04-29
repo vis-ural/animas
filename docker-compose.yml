@@ -21,7 +21,7 @@ services:
   nginx:
     image: nginx:1.12-alpine
     ports:
-      - 80:80
+      - 81:80
     volumes:
       - ./:/app
       - ./docker/nginx/vhost.conf:/etc/nginx/conf.d/vhost.conf
@@ -31,7 +31,7 @@ services:
   mailcatcher:
     image: schickling/mailcatcher:latest
     ports:
-      - 1080:1080
+      - 1081:1080
 
   db:
     image: mysql:5.7
@@ -39,7 +39,7 @@ services:
       - /var/lib/mysql
       - ./docker/mysql/config.cnf:/etc/mysql/conf.d/config.cnf
     ports:
-      - 3306:3306
+      - 3307:3306
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: animals

@@ -83,9 +83,9 @@
 - [Swagger](https://swagger.io/) for API docs.
 
 ## DEMO
-Demo is hosted by awesome [Digital Ocean](https://m.do.co/c/d7f000191ea8)
-- Frontend: [http://yii2-starter-kit.terentev.net](http://yii2-starter-kit.terentev.net)
-- Backend: [http://backend.yii2-starter-kit.terentev.net](http://backend.yii2-starter-kit.terentev.net)
+Demo is hosted simplecloud.ru
+- Frontend: [http://animals.inchats.ru](http://animals.inchats.ru)
+- Backend: [http://animals.inchats.ru/backend](http://animals.inchats.ru/backend)
 
 `administrator` role account
 ```
