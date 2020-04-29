@@ -84,8 +84,8 @@
 
 ## DEMO
 Demo is hosted simplecloud.ru
-- Frontend: [http://animals.inchats.ru](http://animals.inchats.ru)
-- Backend: [http://animals.inchats.ru/backend](http://animals.inchats.ru/backend)
+- Frontend: [http://animals.inchats.ru](http://animals.inchats.ru:81)
+- Backend: [http://animals.inchats.ru/backend](http://animals.inchats.ru:81/backend)
 
 `administrator` role account
 ```

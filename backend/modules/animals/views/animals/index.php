@@ -91,10 +91,10 @@ $this->params['breadcrumbs'][] = $this->title;
                 'options' => ['style' => 'width: 240px'],
                 'buttons' => [
                     'swim' => function ($url) {
-                        return Html::a(
+                        return Html::button(
                             \rmrevin\yii\fontawesome\FAS::icon('water',
                                 ['aria' => ['hidden' => true], 'class' => ['fa-fw']]),
-                            $url,
+                             
                             [
                                 'title' => Yii::t('backend', 'Плавать'),
                                 'class' => ['btn', 'btn-xs', 'btn-secondary'],
@@ -102,10 +102,10 @@ $this->params['breadcrumbs'][] = $this->title;
                         );
                     },
                     'hunt' => function ($url) {
-                        return Html::a(
+                        return Html::button(
                             \rmrevin\yii\fontawesome\FAS::icon('arrow-right',
                                 ['aria' => ['hidden' => true], 'class' => ['fa-fw']]),
-                            $url,
+
                             [
                                 'title' => Yii::t('backend', 'Охотиться'),
                                 'class' => ['btn', 'btn-xs', 'btn-secondary'],
@@ -113,10 +113,10 @@ $this->params['breadcrumbs'][] = $this->title;
                         );
                     },
                     'voice' => function ($url) {
-                        return Html::a(
+                        return Html::button(
                             \rmrevin\yii\fontawesome\FAS::icon('volume-up',
                                 ['aria' => ['hidden' => true], 'class' => ['fa-fw']]),
-                            $url,
+
                             [
                                 'title' => Yii::t('backend', 'Издавать звуки'),
                                 'class' => ['btn', 'btn-xs', 'btn-secondary'],

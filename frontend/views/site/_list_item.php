@@ -14,8 +14,7 @@ use yii\helpers\Url;
         ]); ?>
     </div>
     <h5 class="">
-        <?= Html::a(Html::encode($model->name." ({$model->getNameClass()})"),
-            Url::toRoute(['post/show', 'id' => $model->id]), ['title' => $model->name]) ?>
+        <?= Html::encode($model->name." ({$model->getNameClass()})") ?>
     </h5>
     <div class="text-center">
         <?php if ($model->getShowBtn('swim')): ?>
