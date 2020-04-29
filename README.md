@@ -15,8 +15,8 @@
 3. [Install docker-compose](https://docs.docker.com/compose/install/)
 4. Run
     ```bash
-    composer create-project yii2-starter-kit/yii2-starter-kit myproject.com --ignore-platform-reqs
-    cd myproject.com
+    git clone git@github.com:vis-ural/animas.git
+    cd animals
     composer run-script docker:build
     ```
 5. Go to [http://animals.loc](http://animals.loc)
